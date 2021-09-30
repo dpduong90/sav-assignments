@@ -1,0 +1,611 @@
+2021-10-01 00:04:25,886 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-20] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-01 00:04:25,890 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:04:25,890 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-20] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-01 00:04:25,901 INFO com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-1 - Shutdown initiated...
+2021-10-01 00:04:25,907 INFO com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-1 - Shutdown completed.
+2021-10-01 00:04:33,390 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 10664 (D:\Working\sav-assignments\target\classes started by Phu Duong in D:\Working\sav-assignments)
+2021-10-01 00:04:33,394 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 00:04:34,576 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 00:04:34,652 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 68ms. Found 1 repository interfaces.
+2021-10-01 00:04:34,995 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc9f8b57] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:04:35,036 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$754d5391] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:04:35,043 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:04:35,047 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1642eeae' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:04:35,051 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$9a21f643] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:04:35,056 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:04:35,446 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 00:04:35,473 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 00:04:35,473 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 00:04:35,480 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 00:04:35,640 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 00:04:35,641 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2183 ms
+2021-10-01 00:04:35,956 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 00:04:36,050 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 00:04:36,104 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 00:04:36,188 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 00:04:36,190 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 00:04:36,394 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 00:04:36,588 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 00:04:37,320 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@37c37d67'
+2021-10-01 00:04:37,324 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:04:38,442 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 00:04:38,707 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c680fe1, org.springframework.security.web.context.SecurityContextPersistenceFilter@26728255, org.springframework.security.web.header.HeaderWriterFilter@1791396b, org.springframework.security.web.authentication.logout.LogoutFilter@96c840a, com.sav.assignments.security.TokenRequestFilter@5d20195b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@281963c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59d09ff3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@288b8663, org.springframework.security.web.session.SessionManagementFilter@22d47f09, org.springframework.security.web.access.ExceptionTranslationFilter@351d726c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@391e2a]
+2021-10-01 00:04:38,739 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-01 00:04:38,982 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-01 00:04:39,225 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 00:04:39,248 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 00:04:39,290 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 00:04:39,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 00:04:39,747 INFO org.springframework.boot.StartupInfoLogger [main] Started AssignmentsApplication in 7.109 seconds (JVM running for 7.95)
+2021-10-01 00:05:40,810 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 00:05:40,810 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-01 00:05:40,819 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2021-10-01 00:05:40,837 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-10-01 00:05:40,948 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2021-10-01 00:05:43,762 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-10-01 00:05:58,759 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-10-01 00:06:36,734 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-6] JWT Token does not begin with Bearer String
+2021-10-01 00:09:40,731 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s527ms869µs300ns).
+2021-10-01 00:09:40,822 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-17] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-01 00:09:40,825 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-17] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:09:40,826 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-17] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-01 00:09:40,835 INFO com.zaxxer.hikari.HikariDataSource [Thread-17] HikariPool-1 - Shutdown initiated...
+2021-10-01 00:09:40,840 INFO com.zaxxer.hikari.HikariDataSource [Thread-17] HikariPool-1 - Shutdown completed.
+2021-10-01 00:09:47,261 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 14572 (D:\Working\sav-assignments\target\classes started by Phu Duong in D:\Working\sav-assignments)
+2021-10-01 00:09:47,268 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 00:09:48,471 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 00:09:48,541 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+2021-10-01 00:09:48,917 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f5c8056a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:09:48,958 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$8e75cda4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:09:48,965 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:09:48,968 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4d9754a8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:09:48,972 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$b34a7056] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:09:48,976 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:09:49,359 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 00:09:49,388 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 00:09:49,388 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 00:09:49,395 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 00:09:49,569 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 00:09:49,569 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2172 ms
+2021-10-01 00:09:49,871 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 00:09:49,951 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 00:09:50,002 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 00:09:50,087 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 00:09:50,090 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 00:09:50,258 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 00:09:50,404 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 00:09:51,028 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@32428874'
+2021-10-01 00:09:51,033 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:09:51,837 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 00:09:52,109 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7164e28a, org.springframework.security.web.context.SecurityContextPersistenceFilter@c31419f, org.springframework.security.web.header.HeaderWriterFilter@9ae0794, org.springframework.security.web.authentication.logout.LogoutFilter@4c12f54a, com.sav.assignments.security.TokenRequestFilter@76105ac0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22c0344e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fcfe065, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b881f1f, org.springframework.security.web.session.SessionManagementFilter@7cc3a7f7, org.springframework.security.web.access.ExceptionTranslationFilter@446981a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5dff108c]
+2021-10-01 00:09:52,141 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-01 00:09:52,351 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-01 00:09:52,551 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 00:09:52,568 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 00:09:52,605 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 00:09:52,974 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 00:09:52,977 INFO org.springframework.boot.StartupInfoLogger [main] Started AssignmentsApplication in 6.57 seconds (JVM running for 7.518)
+2021-10-01 00:10:02,284 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 00:10:02,284 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-01 00:10:02,293 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 9 ms
+2021-10-01 00:10:02,310 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-10-01 00:10:02,413 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2021-10-01 00:10:05,209 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-10-01 00:28:25,105 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-16] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-01 00:28:25,108 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-16] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:28:25,108 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-16] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-01 00:28:25,114 INFO com.zaxxer.hikari.HikariDataSource [Thread-16] HikariPool-1 - Shutdown initiated...
+2021-10-01 00:28:25,118 INFO com.zaxxer.hikari.HikariDataSource [Thread-16] HikariPool-1 - Shutdown completed.
+2021-10-01 00:28:32,061 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 12784 (D:\Working\sav-assignments\target\classes started by Phu Duong in D:\Working\sav-assignments)
+2021-10-01 00:28:32,067 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 00:28:33,764 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 00:28:33,863 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 84ms. Found 1 repository interfaces.
+2021-10-01 00:28:34,528 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6e1935d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:28:34,594 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$9f8f5b97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:28:34,604 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:28:34,610 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@18b74ea' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:28:34,615 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$c463fe49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:28:34,620 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:28:35,163 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 00:28:35,195 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 00:28:35,195 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 00:28:35,210 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 00:28:35,409 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 00:28:35,410 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3185 ms
+2021-10-01 00:28:35,778 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 00:28:35,921 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 00:28:35,983 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 00:28:36,088 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 00:28:36,090 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 00:28:36,279 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 00:28:36,513 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 00:28:37,552 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18dbc1b'
+2021-10-01 00:28:37,558 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:28:38,284 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.sav.assignments.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-10-01 00:28:38,286 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:28:38,286 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-01 00:28:38,290 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-10-01 00:28:38,294 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-10-01 00:28:38,296 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-10-01 00:28:38,308 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-01 00:28:38,494 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.sav.assignments.controller.UserController required a bean of type 'com.sav.assignments.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.sav.assignments.service.UserService' in your configuration.
+
+2021-10-01 00:29:12,547 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 1860 (D:\Working\sav-assignments\target\classes started by Phu Duong in D:\Working\sav-assignments)
+2021-10-01 00:29:12,551 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 00:29:13,986 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 00:29:14,187 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 194ms. Found 1 repository interfaces.
+2021-10-01 00:29:14,648 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$83dd48b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:29:14,758 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$1c8b10ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:29:14,768 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:29:14,773 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5b5b59' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:29:14,775 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$415fb3a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:29:14,780 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:29:15,231 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 00:29:15,268 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 00:29:15,268 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 00:29:15,278 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 00:29:15,514 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 00:29:15,515 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2814 ms
+2021-10-01 00:29:15,970 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 00:29:16,080 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 00:29:16,137 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 00:29:16,216 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 00:29:16,220 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 00:29:16,410 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 00:29:16,611 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 00:29:17,641 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3e2d65e1'
+2021-10-01 00:29:17,646 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:29:18,760 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 00:29:19,023 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6cb417fc, org.springframework.security.web.context.SecurityContextPersistenceFilter@38394e76, org.springframework.security.web.header.HeaderWriterFilter@5169db2f, org.springframework.security.web.authentication.logout.LogoutFilter@2d2afc39, com.sav.assignments.security.TokenRequestFilter@77e1dacd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5afba80c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52463255, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@239bc43f, org.springframework.security.web.session.SessionManagementFilter@6ba0dcba, org.springframework.security.web.access.ExceptionTranslationFilter@66851aa5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56226064]
+2021-10-01 00:29:19,067 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-01 00:29:19,310 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-01 00:29:19,562 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 00:29:19,578 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 00:29:19,619 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 00:29:20,009 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: getInfoUsingGET_1
+2021-10-01 00:29:20,060 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 00:29:20,062 INFO org.springframework.boot.StartupInfoLogger [main] Started AssignmentsApplication in 9.089 seconds (JVM running for 10.091)
+2021-10-01 00:30:58,927 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 00:30:58,927 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-10-01 00:30:58,938 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 11 ms
+2021-10-01 00:30:58,959 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-10-01 00:30:59,079 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-2] HHH000397: Using ASTQueryTranslatorFactory
+2021-10-01 00:31:00,732 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-10-01 00:31:54,515 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-20] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-01 00:31:54,518 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:31:54,518 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-20] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-01 00:31:54,528 INFO com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-1 - Shutdown initiated...
+2021-10-01 00:31:54,533 INFO com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-1 - Shutdown completed.
+2021-10-01 00:37:44,656 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 17300 (D:\Working\sav-assignments\target\classes started by Phu Duong in D:\Working\sav-assignments)
+2021-10-01 00:37:44,660 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 00:37:46,463 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 00:37:46,596 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 124ms. Found 1 repository interfaces.
+2021-10-01 00:37:47,223 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6b802ad4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:37:47,313 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$42df30e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:37:47,321 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:37:47,324 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@19b206ee' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:37:47,329 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$290295c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:37:47,334 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 00:37:47,783 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 00:37:47,811 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 00:37:47,812 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 00:37:47,820 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 00:37:48,103 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 00:37:48,104 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3353 ms
+2021-10-01 00:37:48,488 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 00:37:48,589 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 00:37:48,649 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 00:37:48,722 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 00:37:48,725 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 00:37:48,884 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 00:37:49,164 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 00:37:50,143 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4dad2363'
+2021-10-01 00:37:50,150 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:37:51,370 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 00:37:51,819 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@680937c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@523f3c29, org.springframework.security.web.header.HeaderWriterFilter@3dad8bde, org.springframework.security.web.authentication.logout.LogoutFilter@737445ab, com.sav.assignments.security.TokenRequestFilter@3ec62141, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fe38b73, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f7c4e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77ad2767, org.springframework.security.web.session.SessionManagementFilter@3b17759c, org.springframework.security.web.access.ExceptionTranslationFilter@6c2e7591, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@779ef5cb]
+2021-10-01 00:37:51,866 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-01 00:37:52,094 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-01 00:37:52,303 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 00:37:52,319 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 00:37:52,370 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 00:37:52,728 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: getInfoUsingGET_1
+2021-10-01 00:37:52,774 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 00:37:52,776 INFO org.springframework.boot.StartupInfoLogger [main] Started AssignmentsApplication in 8.997 seconds (JVM running for 10.454)
+2021-10-01 00:39:20,626 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 00:39:20,627 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-01 00:39:20,636 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 9 ms
+2021-10-01 00:39:20,915 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2021-10-01 00:39:21,033 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.sav.assignments.security.JwtTokenUtil.validateToken(JwtTokenUtil.java:55)
+	at com.sav.assignments.security.TokenRequestFilter.doFilterInternal(TokenRequestFilter.java:54)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-10-01 00:39:26,475 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-10-01 00:39:30,347 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-10-01 00:41:16,536 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m57s809ms162µs500ns).
+2021-10-01 00:41:16,621 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-22] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-01 00:41:16,625 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-22] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 00:41:16,625 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-22] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-01 00:41:16,635 INFO com.zaxxer.hikari.HikariDataSource [Thread-22] HikariPool-1 - Shutdown initiated...
+2021-10-01 00:41:16,639 INFO com.zaxxer.hikari.HikariDataSource [Thread-22] HikariPool-1 - Shutdown completed.
+2021-10-01 01:27:47,313 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 5556 (D:\Working\sav-assignments\target\classes started by Phu Duong in D:\Working\sav-assignments)
+2021-10-01 01:27:47,319 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 01:27:48,469 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 01:27:48,563 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73ms. Found 2 repository interfaces.
+2021-10-01 01:27:48,962 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$726d77db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:27:49,012 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b1b4015] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:27:49,018 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:27:49,021 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@315105f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:27:49,022 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2fefe2c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:27:49,027 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:27:49,448 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 01:27:49,477 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 01:27:49,478 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 01:27:49,485 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 01:27:49,648 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 01:27:49,648 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2227 ms
+2021-10-01 01:27:49,950 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 01:27:50,063 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 01:27:50,123 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 01:27:50,217 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 01:27:50,219 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 01:27:50,427 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 01:27:50,623 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 01:27:51,429 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@511de4dd'
+2021-10-01 01:27:51,433 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 01:27:52,443 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 01:27:52,730 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3472f3ab, org.springframework.security.web.context.SecurityContextPersistenceFilter@4603c412, org.springframework.security.web.header.HeaderWriterFilter@be9cc86, org.springframework.security.web.authentication.logout.LogoutFilter@66f5770e, com.sav.assignments.security.TokenRequestFilter@2d34866a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49654a35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37b1218, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e557671, org.springframework.security.web.session.SessionManagementFilter@23119bc3, org.springframework.security.web.access.ExceptionTranslationFilter@7772ec28, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c4455b4]
+2021-10-01 01:27:52,767 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-01 01:27:53,006 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-01 01:27:53,249 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 01:27:53,266 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 01:27:53,483 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 01:27:53,689 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: getInfoUsingGET_1
+2021-10-01 01:27:53,735 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 01:27:53,737 INFO org.springframework.boot.StartupInfoLogger [main] Started AssignmentsApplication in 7.325 seconds (JVM running for 8.344)
+2021-10-01 01:28:43,963 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 01:28:43,963 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-01 01:28:43,976 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 13 ms
+2021-10-01 01:28:44,014 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-10-01 01:28:44,095 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-10-01 01:28:44,096 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-10-01 01:28:44,102 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-10-01 01:28:44,203 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-10-01 01:28:44,205 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-6] JWT Token does not begin with Bearer String
+2021-10-01 01:28:44,332 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-7] JWT Token does not begin with Bearer String
+2021-10-01 01:28:44,474 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-9] JWT Token does not begin with Bearer String
+2021-10-01 01:28:52,337 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-10-01 01:28:52,337 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-10-01 01:30:08,109 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-17] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-01 01:30:08,112 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-17] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 01:30:08,112 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-17] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-01 01:30:08,120 INFO com.zaxxer.hikari.HikariDataSource [Thread-17] HikariPool-1 - Shutdown initiated...
+2021-10-01 01:30:08,125 INFO com.zaxxer.hikari.HikariDataSource [Thread-17] HikariPool-1 - Shutdown completed.
+2021-10-01 01:30:15,475 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 16528 (D:\Working\sav-assignments\target\classes started by Phu Duong in D:\Working\sav-assignments)
+2021-10-01 01:30:15,484 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 01:30:16,761 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 01:30:16,852 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81ms. Found 2 repository interfaces.
+2021-10-01 01:30:17,207 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d2a0be5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:30:17,249 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$c5d7d41f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:30:17,255 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:30:17,257 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4dde8976' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:30:17,261 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$eaac76d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:30:17,264 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:30:17,690 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 01:30:17,718 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 01:30:17,718 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 01:30:17,725 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 01:30:17,924 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 01:30:17,924 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2286 ms
+2021-10-01 01:30:18,273 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 01:30:18,370 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 01:30:18,435 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 01:30:18,537 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 01:30:18,540 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 01:30:18,732 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 01:30:18,966 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 01:30:19,772 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5a57cf90'
+2021-10-01 01:30:19,776 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 01:30:20,731 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 01:30:20,892 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalStateException: @Order on WebSecurityConfigurers must be unique. Order of 100 was already used on com.sav.assignments.config.SecurityConfig$$EnhancerBySpringCGLIB$$449241bd@5ac7550a, so it cannot be used on com.sav.assignments.config.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$97fa607d@6f36e806 too.
+2021-10-01 01:30:20,895 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 01:30:20,895 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-01 01:30:20,899 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-10-01 01:30:20,902 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-10-01 01:30:20,904 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-10-01 01:30:20,915 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-01 01:30:20,925 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalStateException: @Order on WebSecurityConfigurers must be unique. Order of 100 was already used on com.sav.assignments.config.SecurityConfig$$EnhancerBySpringCGLIB$$449241bd@5ac7550a, so it cannot be used on com.sav.assignments.config.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$97fa607d@6f36e806 too.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.sav.assignments.AssignmentsApplication.main(AssignmentsApplication.java:12)
+Caused by: java.lang.IllegalStateException: @Order on WebSecurityConfigurers must be unique. Order of 100 was already used on com.sav.assignments.config.SecurityConfig$$EnhancerBySpringCGLIB$$449241bd@5ac7550a, so it cannot be used on com.sav.assignments.config.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$97fa607d@6f36e806 too.
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.setFilterChainProxySecurityConfigurer(WebSecurityConfiguration.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:708)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 17 common frames omitted
+2021-10-01 01:33:33,522 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [background-preinit] Loaded expression factory via original TCCL
+2021-10-01 01:33:33,674 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 4812 (D:\Working\sav-assignments\target\classes started by Phu Duong in D:\Working\sav-assignments)
+2021-10-01 01:33:33,674 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 01:33:34,970 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 01:33:35,064 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 87ms. Found 2 repository interfaces.
+2021-10-01 01:33:35,425 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3e99c840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:33:35,468 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$d747907a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:33:35,473 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:33:35,476 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5d3ff859' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:33:35,480 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$fc1c332c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:33:35,484 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:33:35,865 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 01:33:35,892 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 01:33:35,892 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 01:33:35,899 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 01:33:36,080 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 01:33:36,080 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2342 ms
+2021-10-01 01:33:36,390 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 01:33:36,493 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 01:33:36,553 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 01:33:36,661 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 01:33:36,664 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 01:33:36,854 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 01:33:37,058 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 01:33:37,848 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2a504ea7'
+2021-10-01 01:33:37,852 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 01:33:38,859 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 01:33:39,106 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2021-10-01 01:33:39,106 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/configuration/ui'], []
+2021-10-01 01:33:39,106 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2021-10-01 01:33:39,106 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/configuration/security'], []
+2021-10-01 01:33:39,107 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2021-10-01 01:33:39,107 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/**'], []
+2021-10-01 01:33:39,156 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60688a97, org.springframework.security.web.context.SecurityContextPersistenceFilter@eee26bd, org.springframework.security.web.header.HeaderWriterFilter@797ee1a9, org.springframework.security.web.authentication.logout.LogoutFilter@5b2ade46, com.sav.assignments.security.TokenRequestFilter@f575d2b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@498f5728, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dd46693, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@242ebd3b, org.springframework.security.web.session.SessionManagementFilter@6ca30886, org.springframework.security.web.access.ExceptionTranslationFilter@3d6745ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13cae908]
+2021-10-01 01:33:39,189 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-01 01:33:39,404 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-01 01:33:39,621 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 01:33:39,640 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 01:33:39,856 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 01:33:40,058 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: getInfoUsingGET_1
+2021-10-01 01:33:40,103 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 01:33:40,105 INFO org.springframework.boot.StartupInfoLogger [main] Started AssignmentsApplication in 7.33 seconds (JVM running for 8.203)
+2021-10-01 01:33:41,992 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 01:33:41,993 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-01 01:33:42,005 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2021-10-01 01:33:42,023 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,105 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,106 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,131 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,133 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,135 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-6] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,553 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-7] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,561 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-8] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,697 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-10] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,707 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-9] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,748 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,754 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,808 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-10-01 01:33:42,809 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-6] JWT Token does not begin with Bearer String
+2021-10-01 01:33:43,058 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-10-01 01:33:43,059 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-8] JWT Token does not begin with Bearer String
+2021-10-01 01:33:43,058 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-10-01 01:33:47,674 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-7] JWT Token does not begin with Bearer String
+2021-10-01 01:34:06,902 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-10-01 01:34:38,492 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-8] JWT Token does not begin with Bearer String
+2021-10-01 01:34:38,556 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-8] HHH000397: Using ASTQueryTranslatorFactory
+2021-10-01 01:34:38,893 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-10-01 01:35:07,034 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-7] JWT Token does not begin with Bearer String
+2021-10-01 01:35:37,847 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-9] JWT Token does not begin with Bearer String
+2021-10-01 01:35:49,509 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-10-01 01:40:17,508 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-5] Received request add new feed: AddFeedRequest{userName=duongdp, message='new feed by duongdp'}
+2021-10-01 01:40:17,527 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-5] New Feed added: FeedDTO{id=1, postBy='DuongDam', message='new feed by duongdp'}
+2021-10-01 01:40:50,764 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-7] Received request get all feeds
+2021-10-01 01:41:02,642 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-3] Received request add new feed: AddFeedRequest{userName=duongdp, message='new feed 2 by duongdp'}
+2021-10-01 01:41:02,647 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-3] New Feed added: FeedDTO{id=2, postBy='DuongDam', message='new feed 2 by duongdp'}
+2021-10-01 01:41:05,181 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-2] Received request get all feeds
+2021-10-01 01:44:32,876 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 15856 (D:\OldProject\sav-assignments\target\classes started by Phu Duong in D:\OldProject\sav-assignments)
+2021-10-01 01:44:32,891 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 01:44:34,045 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 01:44:34,121 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70ms. Found 2 repository interfaces.
+2021-10-01 01:44:34,481 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$efb83b51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:44:34,518 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$8866038b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:44:34,524 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:44:34,526 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5b47731f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:44:34,530 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$ad3aa63d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:44:34,533 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:44:34,850 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 01:44:34,872 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 01:44:34,872 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 01:44:34,879 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 01:44:35,026 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 01:44:35,027 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2036 ms
+2021-10-01 01:44:35,296 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 01:44:35,378 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 01:44:35,428 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 01:44:35,494 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 01:44:35,496 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 01:44:35,633 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 01:44:35,793 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 01:44:36,482 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@647af13d'
+2021-10-01 01:44:36,486 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 01:44:37,335 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 01:44:37,544 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2021-10-01 01:44:37,544 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/configuration/ui'], []
+2021-10-01 01:44:37,544 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2021-10-01 01:44:37,544 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/configuration/security'], []
+2021-10-01 01:44:37,544 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2021-10-01 01:44:37,544 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/**'], []
+2021-10-01 01:44:37,586 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4154ecd3, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b529d42, org.springframework.security.web.header.HeaderWriterFilter@509e4902, org.springframework.security.web.authentication.logout.LogoutFilter@6ca30886, com.sav.assignments.security.TokenRequestFilter@39840986, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@790f4933, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ed5492c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b53ce18, org.springframework.security.web.session.SessionManagementFilter@d763b06, org.springframework.security.web.access.ExceptionTranslationFilter@712c9bcf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40f15786]
+2021-10-01 01:44:37,619 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-01 01:44:37,829 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-01 01:44:38,033 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 01:44:38,048 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 01:44:38,238 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 01:44:38,434 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: getInfoUsingGET_1
+2021-10-01 01:44:38,484 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 01:44:38,487 INFO org.springframework.boot.StartupInfoLogger [main] Started AssignmentsApplication in 6.469 seconds (JVM running for 7.302)
+2021-10-01 01:45:12,009 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-16] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-01 01:45:12,013 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-16] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 01:45:12,014 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-16] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-01 01:45:12,022 INFO com.zaxxer.hikari.HikariDataSource [Thread-16] HikariPool-1 - Shutdown initiated...
+2021-10-01 01:45:12,026 INFO com.zaxxer.hikari.HikariDataSource [Thread-16] HikariPool-1 - Shutdown completed.
+2021-10-01 01:45:23,429 INFO org.springframework.boot.StartupInfoLogger [main] Starting AssignmentsApplication on DESKTOP-1N97S6V with PID 17740 (D:\OldProject\sav-assignments\target\classes started by Phu Duong in D:\OldProject\sav-assignments)
+2021-10-01 01:45:23,433 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 01:45:24,513 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-01 01:45:24,578 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60ms. Found 2 repository interfaces.
+2021-10-01 01:45:24,869 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa220e66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:45:24,904 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$92cfd6a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:45:24,910 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:45:24,912 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3e48d38' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:45:24,915 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$b7a47952] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:45:24,919 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-01 01:45:25,204 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-01 01:45:25,225 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 01:45:25,226 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-10-01 01:45:25,231 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.4\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\gradle-6.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Phu Duong\AppData\Local\Programs\Python\Python37-32\;C:\Users\Phu Duong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phu Duong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phu Duong\AppData\Roaming\npm;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.2\bin;;.]
+2021-10-01 01:45:25,355 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 01:45:25,355 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1844 ms
+2021-10-01 01:45:25,528 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-01 01:45:25,698 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-01 01:45:25,750 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-01 01:45:25,804 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2021-10-01 01:45:25,806 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-10-01 01:45:25,915 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-01 01:45:26,037 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-01 01:45:26,585 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@46cf8c07'
+2021-10-01 01:45:26,589 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 01:45:27,351 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 01:45:27,525 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2021-10-01 01:45:27,525 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/configuration/ui'], []
+2021-10-01 01:45:27,525 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2021-10-01 01:45:27,525 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/configuration/security'], []
+2021-10-01 01:45:27,526 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2021-10-01 01:45:27,526 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/webjars/**'], []
+2021-10-01 01:45:27,566 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ac685ef, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e7eba9f, org.springframework.security.web.header.HeaderWriterFilter@6c519e47, org.springframework.security.web.authentication.logout.LogoutFilter@29c25bbc, com.sav.assignments.security.TokenRequestFilter@259195fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b841713, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c7843c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@223cbf0d, org.springframework.security.web.session.SessionManagementFilter@c754401, org.springframework.security.web.access.ExceptionTranslationFilter@29aa4bc9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@391d28ea]
+2021-10-01 01:45:27,602 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-01 01:45:27,779 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-01 01:45:27,961 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 01:45:27,973 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 01:45:28,018 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 01:45:28,369 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: getInfoUsingGET_1
+2021-10-01 01:45:28,407 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 01:45:28,409 INFO org.springframework.boot.StartupInfoLogger [main] Started AssignmentsApplication in 5.679 seconds (JVM running for 6.361)
+2021-10-01 01:45:36,118 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 01:45:36,119 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-01 01:45:36,130 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2021-10-01 01:45:36,148 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-10-01 01:45:36,256 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2021-10-01 01:45:42,154 WARN com.sav.assignments.security.TokenRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-10-01 01:46:12,411 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-8] Received request add new feed: AddFeedRequest{userName=duongdp, message='new feed 1 by duongdp'}
+2021-10-01 01:46:12,426 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-8] New Feed added: FeedDTO{id=1, postBy='DuongDam', message='new feed 1 by duongdp'}
+2021-10-01 01:46:19,320 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-9] Received request add new feed: AddFeedRequest{userName=duongdp, message='new feed 2 by duongdp'}
+2021-10-01 01:46:19,324 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-9] New Feed added: FeedDTO{id=2, postBy='DuongDam', message='new feed 2 by duongdp'}
+2021-10-01 01:46:23,159 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-1] Received request add new feed: AddFeedRequest{userName=duongdp, message='new feed 3 by duongdp'}
+2021-10-01 01:46:23,162 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-1] New Feed added: FeedDTO{id=3, postBy='DuongDam', message='new feed 3 by duongdp'}
+2021-10-01 01:46:30,486 INFO com.sav.assignments.controller.FeedController [http-nio-8080-exec-2] Received request get all feeds
