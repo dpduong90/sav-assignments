@@ -37,11 +37,11 @@ public class FeedServiceImpl implements FeedService {
 
     @Override
     @Transactional
-    public FeedDTO add(AddFeedRequest addFeedRequest) throws NotFoundException {
+    public FeedDTO add(String username, AddFeedRequest addFeedRequest) throws NotFoundException {
         Preconditions.checkArgument(!StringUtils.isEmpty(addFeedRequest.getMessage()), "Feed message is empty");
 
-        AppUser user = userRepository.findOneByUsername(addFeedRequest.getUserName())
-            .orElseThrow(() -> new NotFoundException(String.format("User not found with username %s", addFeedRequest.getUserName())));
+        AppUser user = userRepository.findOneByUsername(username)
+            .orElseThrow(() -> new NotFoundException(String.format("User not found with username %s", username)));
         FeedDTO response;
 
         try {

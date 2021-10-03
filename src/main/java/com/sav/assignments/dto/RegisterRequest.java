@@ -1,24 +1,27 @@
 package com.sav.assignments.dto;
 
-import com.sav.assignments.entity.AppUser;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 
-public class UserDTO implements Serializable {
+public class RegisterRequest implements Serializable {
+
+    @NotBlank(message = "Username cannot be null")
+    @Min(value = 4, message = "Username should not be less than 4")
     private String userName;
+
+    @NotBlank(message = "Email cannot be null")
+    @Email(message = "Email should be valid")
     private String email;
+
+    @NotBlank(message = "Password cannot be null")
+    @Min(value = 6, message = "Password should not be less than 6")
+    private String password;
+
     private String firstName;
     private String lastName;
-
-    public UserDTO() {
-    }
-
-    public UserDTO(AppUser user) {
-        this.userName = user.getUsername();
-        this.email = user.getEmail();
-        this.firstName = user.getFirstName();
-        this.lastName = user.getLastName();
-    }
 
     public String getUserName() {
         return userName;
@@ -34,6 +37,14 @@ public class UserDTO implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getFirstName() {
@@ -56,6 +67,7 @@ public class UserDTO implements Serializable {
     public String toString() {
         return "UserDTO{" +
             "email='" + email + '\'' +
+            ", password='" + password + '\'' +
             ", firstName='" + firstName + '\'' +
             ", lastName='" + lastName + '\'' +
             '}';

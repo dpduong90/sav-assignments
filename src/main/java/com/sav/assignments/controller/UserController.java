@@ -1,7 +1,7 @@
 package com.sav.assignments.controller;
 
-import com.sav.assignments.dto.UserInfoResponse;
-import com.sav.assignments.entity.AppUser;
+import com.sav.assignments.dto.UpdateUserRequest;
+import com.sav.assignments.dto.UserDTO;
 import com.sav.assignments.security.CurrentUser;
 import com.sav.assignments.service.UserService;
 import javassist.NotFoundException;
@@ -18,16 +18,24 @@ public class UserController {
     private UserService userService;
 
     @GetMapping(value = "/me")
-    public ResponseEntity<?> getInfo(@CurrentUser User user) throws NotFoundException {
-        final AppUser userDetails = userService.loadUserByUsername(user.getUsername());
+    public ResponseEntity<UserDTO> getInfo(@CurrentUser User user) throws NotFoundException {
+        final UserDTO userDTO = userService.loadUserByUsername(user.getUsername());
 
-        return ResponseEntity.ok(new UserInfoResponse(userDetails));
+        return ResponseEntity.ok(userDTO);
+    }
+
+    @PutMapping(value = "/me")
+    public ResponseEntity<UserDTO> updateInfo(@CurrentUser User user,
+                                                       @RequestBody UpdateUserRequest updateUserRequest) throws NotFoundException {
+        final UserDTO userDTO = userService.update(user.getUsername(), updateUserRequest);
+
+        return ResponseEntity.ok(userDTO);
     }
 
     @GetMapping("/{username}")
-    public ResponseEntity<?> getUserByUserName(@PathVariable(value = "username") String username) throws NotFoundException {
-        final AppUser userDetails = userService.loadUserByUsername(username);
+    public ResponseEntity<UserDTO> getUserByUserName(@PathVariable(value = "username") String username) throws NotFoundException {
+        final UserDTO userDTO = userService.loadUserByUsername(username);
 
-        return ResponseEntity.ok(new UserInfoResponse(userDetails));
+        return ResponseEntity.ok(userDTO);
     }
 }

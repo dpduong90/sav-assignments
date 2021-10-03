@@ -15,3 +15,6 @@ spring:
 security:
   jwt:
     secret: duongdp
+  emial:
+    username: abc@gmail.com
+    password: 123456

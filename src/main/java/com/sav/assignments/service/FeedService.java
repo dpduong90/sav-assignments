@@ -7,7 +7,7 @@ import javassist.NotFoundException;
 import org.springframework.security.core.userdetails.User;
 
 public interface FeedService {
-    FeedDTO add(AddFeedRequest addFeedRequest) throws NotFoundException;
+    FeedDTO add(String username, AddFeedRequest addFeedRequest) throws NotFoundException;
 
     PageDTO<FeedDTO> getAllFeeds(User user, Integer page, Integer limit) throws Exception;
 

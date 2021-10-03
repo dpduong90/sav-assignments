@@ -30,9 +30,9 @@ public class FeedController {
     }
 
     @PostMapping
-    public ResponseEntity<FeedDTO> createFeed(@RequestBody AddFeedRequest addFeedRequest) throws NotFoundException {
+    public ResponseEntity<FeedDTO> createFeed(@CurrentUser User user, @RequestBody AddFeedRequest addFeedRequest) throws NotFoundException {
         logger.info("Received request add new feed: {}", addFeedRequest);
-        FeedDTO feedDTO = feedService.add(addFeedRequest);
+        FeedDTO feedDTO = feedService.add(user.getUsername(), addFeedRequest);
         logger.info("New Feed added: {}", feedDTO);
         return ResponseEntity.ok(feedDTO);
     }
