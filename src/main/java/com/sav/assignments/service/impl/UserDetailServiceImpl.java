@@ -4,6 +4,7 @@ import com.sav.assignments.dto.RegisterRequest;
 import com.sav.assignments.dto.UserDTO;
 import com.sav.assignments.entity.AppUser;
 import com.sav.assignments.repository.UserRepository;
+import com.sav.assignments.service.EmailService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +25,10 @@ public class UserDetailServiceImpl implements UserDetailsService {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private EmailService emailService;
+
 
     @Autowired
     private PasswordEncoder bcryptEncoder;
@@ -64,12 +69,12 @@ public class UserDetailServiceImpl implements UserDetailsService {
             response.setFirstName(saveUser.getFirstName());
             response.setLastName(saveUser.getLastName());
 
+            // Send mail
+            emailService.sendMailRegister(newUser);
         } catch (Exception e) {
             logger.error("Add new feed failed", e);
             throw e;
         }
-
-
 
         return response;
     }

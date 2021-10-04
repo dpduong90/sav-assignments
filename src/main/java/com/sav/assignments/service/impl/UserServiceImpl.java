@@ -3,6 +3,8 @@ package com.sav.assignments.service.impl;
 import com.sav.assignments.dto.UpdateUserRequest;
 import com.sav.assignments.dto.UserDTO;
 import com.sav.assignments.entity.AppUser;
+import com.sav.assignments.entity.VerificationToken;
+import com.sav.assignments.repository.TokenRepository;
 import com.sav.assignments.repository.UserRepository;
 import com.sav.assignments.service.UserService;
 import javassist.NotFoundException;
@@ -19,6 +21,9 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private TokenRepository tokenRepository;
 
     @Override
     public UserDTO loadUserByUsername(String username) throws NotFoundException {
@@ -44,5 +49,21 @@ public class UserServiceImpl implements UserService {
         }
 
         return new UserDTO(user);
+    }
+
+    @Override
+    public VerificationToken getVerificationToken(String VerificationToken) {
+        return tokenRepository.findByToken(VerificationToken);
+    }
+
+    @Override
+    public void saveRegisteredUser(AppUser user) {
+        userRepository.saveAndFlush(user);
+    }
+
+    @Override
+    public void createVerificationToken(AppUser user, String token) {
+        VerificationToken myToken = new VerificationToken(token, user);
+        tokenRepository.save(myToken);
     }
 }

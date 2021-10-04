@@ -26,6 +26,14 @@ public class AppUser implements Serializable {
     @Column(name = "last_name")
     private String lastName;
 
+    @Column(name = "enabled")
+    private boolean enabled;
+
+    public AppUser() {
+        super();
+        this.enabled = false;
+    }
+
     public Long getId() {
         return id;
     }
@@ -74,6 +82,14 @@ public class AppUser implements Serializable {
         this.lastName = lastName;
     }
 
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
+    }
+
     @Override
     public String toString() {
         return "AppUser{" +
@@ -81,8 +97,9 @@ public class AppUser implements Serializable {
             ", username='" + username + '\'' +
             ", password='" + password + '\'' +
             ", email='" + email + '\'' +
-            ", first_name='" + firstName + '\'' +
-            ", last_name='" + lastName + '\'' +
+            ", firstName='" + firstName + '\'' +
+            ", lastName='" + lastName + '\'' +
+            ", enabled=" + enabled +
             '}';
     }
 }
